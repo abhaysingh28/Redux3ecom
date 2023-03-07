@@ -1,0 +1,44 @@
+.cart{
+    width: 100%;
+    height: 25vh;
+    padding: 20px;
+
+}
+.item h1{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+    margin: 0px;
+    margin-top: 2%;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.item img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    border-radius: 12px 12px 0 0;
+    mix-blend-mode: darken;
+}
+.item button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 13px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
